@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        .container{
+            display: grid;
+            place-items: center;
+            height: 100vh;
+        }
+        .box{
+            background-color: black;
+            color: grey;
+        }
+        h3{
+            color: white;
+            margin-bottom: 30px;
+        }
+        li{
+            border-bottom: 1px dotted grey;
+        }
+        footer{
+            display: flex;
+            justify-content: space-between;
+            padding: 60px 50px;
+        }
+        .text-left{
+            width: 35%;
+        }
+        .text-left p:first-child{
+            width: 190px;
+            height: 50px;
+            background-color: dodgerblue;
+            margin-bottom: 50px;
+        }
+        .information, .contact{
+            width: 25%;
+        }
+        .social{
+            width: 10%;
+        }
+        ul{
+            list-style: none;
+        }
+        ul li{
+            padding: 15px 0;
+        }
+        ul li:last-child{
+            border: none;
+        }
+        .social ul li i{
+            padding-right: 15px;
+            margin-right: 15px;
+            border-right: 1px solid grey;
+        }
+    </style>
+</head>
+<body>
+  <section class="container">
+    <div class="box">
+      <footer>
+        <div class="text-left">
+          <p></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae consequuntur cumque distinctio doloribus eius eligendi hic ipsam iusto molestias nisi omnis pariatur quam quidem repellat, soluta vel veniam, voluptatibus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi consequatur dignissimos esse, fuga id ipsa itaque modi mollitia necessitatibus nisi non placeat quos ratione, reprehenderit ullam ut, vel vero! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur corporis dicta dolor eaque exercitationem iste, itaque non porro quidem ratione sit tempore? Culpa delectus illum inventore ipsum obcaecati quisquam reiciendis?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem dignissimos dolore dolorum, earum eos ipsam iste libero mollitia neque officia pariatur quae quasi quis reprehenderit sint tenetur velit voluptates.</p>
+        </div>
+          <div class="information">
+              <h3>Information Link</h3>
+              <ul>
+                  <li>Home</li>
+                  <li>Blog</li>
+                  <li>Pricing</li>
+                  <li>About</li>
+                  <li>Faq</li>
+                  <li>Contact</li>
+              </ul>
+          </div>
+          <div class="contact">
+              <h3>Contact Details</h3>
+              <ul>
+                  <li>info@yoursite.com</li>
+                  <li>www.yoursite.com</li>
+                  <li>123 Nguyen Van B, Tp.HCM Viet Nam</li>
+                  <li>+61 3 8376 6284</li>
+              </ul>
+          </div>
+          <div class="social">
+              <h3>Social</h3>
+              <ul>
+                  <li><i class="fab fa-facebook-f"></i>22.543 Likes</li>
+                  <li><i class="fab fa-github"></i>128 Project</li>
+                  <li><i class="fab fa-twitter"></i>12.860 Followers</li>
+                  <li><i class="fa fa-eye"></i>3321 Shots</li>
+                  <li><i class="fab fa-pinterest"></i>3331 Pins</li>
+              </ul>
+          </div>
+      </footer>
+    </div>
+  </section>
+</body>
+</html>
